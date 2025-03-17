@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
+
+    <!-- 🔹 Navigasi -->
+    <header>
+        <nav>
+            <h1>Portfolio Saya</h1>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><button id="darkModeToggle">🌙 Mode Gelap</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 🔹 Hero Section -->
+    <section id="hero">
+        <h2>Halo, Saya [Nama Kamu]</h2>
+        <p>Seorang Front-End Developer yang sedang belajar Vue.js</p>
+        <a href="#projects" class="btn">Lihat Proyek</a>
+    </section>
+
+    <!-- 🔹 About Section -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya memiliki pengalaman dalam HTML, CSS, dan sedang belajar JavaScript serta Vue.js.</p>
+    </section>
+
+    <!-- 🔹 Projects Section -->
+    <section id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="project-card">
+            <img src="images/project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Deskripsi singkat proyek ini.</p>
+        </div>
+        <div class="project-card">
+            <img src="images/project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Deskripsi singkat proyek ini.</p>
+        </div>
+    </section>
+
+    <!-- 🔹 Contact Section -->
+    <section id="contact">
+        <h2>Kontak Saya</h2>
+        <form>
+            <input type="text" placeholder="Nama" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Pesan" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <!-- 🔹 Footer -->
+    <footer>
+        <p>&copy; 2025 [Nama Kamu] - Dibuat dengan ❤️</p>
+    </footer>
+
 </body>
 </html>
